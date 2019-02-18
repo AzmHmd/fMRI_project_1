@@ -1,0 +1,12 @@
+
+
+Verify that tensorflow is running with GPU check if GPU is working
+    from tensorflow.python.client import device_lib    
+    print(device_lib.list_local_devices())
+
+output will be something like this:
+
+    [
+      name: "/cpu:0"device_type: "CPU",
+      name: "/gpu:0"device_type: "GPU"
+    ]
