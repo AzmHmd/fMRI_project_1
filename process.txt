@@ -32,3 +32,7 @@ output will be something like this:
       name: "/cpu:0"device_type: "CPU",
       name: "/gpu:0"device_type: "GPU"
     ]
+--------------------------------------------------------------------------------------------
+conda remove --name [NAME] --all
+conda info --envs
+
