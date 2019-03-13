@@ -14,7 +14,7 @@ git push -u origin master
 
 ----------------------------------------------------------------------------------------
 In order to use the GUI, type:
-Ssh username@sunbird.swansea.ac.uk
+ssh -X username@sunbird.swansea.ac.uk
 
 In order to code in python:
 Module load python/3.7.0
